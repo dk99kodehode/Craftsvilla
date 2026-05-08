@@ -171,13 +171,26 @@ section.hero img {
   margin: 0 auto;
 }
 
+/*-------AGE GROUPS---------*/
+.age-groups {
+  display: flex;
+  margin-top: 5%;
+  flex-direction: row;
+  margin-left: 5%;
+  gap: 60px;
+}
+
+.age-groups img {
+  width: 280px;
+}
+
 /*-----ABOUT US------*/
 
 h4 {
   font-size: 64px;
   display: flex;
   box-shadow: 2px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   margin-top: 5%;
   margin-right: 5%;
   align-items: center;
