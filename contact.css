@@ -90,14 +90,13 @@ button.signup {
   margin-top: 2%;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 4%;
 }
 
 .feedback-top {
   align-items: center;
   justify-content: center;
 }
-
-
 
 .form-group {
   display: flex;
@@ -131,19 +130,29 @@ input [type="name"],
 input[type="submit"] {
   border-radius: 8px;
   width: 120px;
+  height: 40px;
 }
-
 
 label[for="workshops"] {
   font-size: 16px;
 }
 
+.feedback-top h2 {
+  align-items: center;
+  justify-content: center;
+  margin-left: 20%;
+}
+
+.feedback-top {
+  font-size: 24px;
+  margin-bottom: 2%;
+}
 
 /*----FOOOTER-----*/
 
 footer {
   display: flex;
-  margin-top: 2%; 
+  margin-top: 2%;
   align-items: center;
   justify-content: center;
   background-color: rgb(190, 43, 43);
@@ -157,13 +166,10 @@ footer img {
   justify-content: center;
 }
 
-
-
 footer .socials {
   display: flex;
   gap: 100px;
 }
-
 
 .nav-footer a {
   margin: 0 20px;
@@ -189,4 +195,3 @@ footer .socials {
 .nav-footer a:hover:after {
   width: 100%;
 }
-
