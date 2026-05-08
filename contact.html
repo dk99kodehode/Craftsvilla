@@ -56,6 +56,7 @@
               type="email"
               id="email"
               placeholder="Craftsvilla@gmail.com"
+              required
             />
           </div>
 
@@ -79,19 +80,30 @@
           ><br />
           <textarea name="feedback" id="improve" rows="10"></textarea><br />
 
-          <label for="recommend"></label>
+          <label for="recommend"></label><br />
 
           <div>
+            <span>Would you recommend us?</span><br />
             <label for="Yes">Yes</label>
-            <input type="radio" id="yes" value="Yes" name="recommend" />
+            <input
+              type="radio"
+              id="yes"
+              value="Yes"
+              name="recommend"
+              required
+            />
             <label for="no">No</label>
             <input type="radio" id="no" value="No" name="recommend" />
             <label for="maybe">Maybe</label>
             <input type="radio" id="maybe" value="Maybe" name="recommend" />
           </div>
 
-          <label for="permission"></label>
-          <input type="checkbox" value="" />
+          <label for="permission"></label><br />
+          <input type="checkbox" />
+          <span
+            >I give CRAFTSVILLA permission to share my feedback on their website
+            or social media.</span
+          ><br /><br />
 
           <input id="submit" type="submit" value="Send Feedback" />
         </form>

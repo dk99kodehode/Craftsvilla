@@ -130,13 +130,12 @@ input [type="name"],
 
 input[type="submit"] {
   border-radius: 8px;
-  width: 80px;
+  width: 120px;
 }
 
 
 label[for="workshops"] {
-  font-size: 24px;
-  margin-left: -30px;
+  font-size: 16px;
 }
 
 
