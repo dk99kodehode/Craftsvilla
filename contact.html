@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact-Craftsvilla</title>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/logo.png" alt="logo" />
+        <div class="logo-text">
+          <h2>Craftsvilla</h2>
+          <p>Workshop</p>
+        </div>
+      </div>
+
+      <nav class="head-nav">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="booking.html">Booking</a>
+        <a href="contact.html">Contact</a>
+        <a href="index.html#about">About</a>
+      </nav>
+
+      <button class="signup">Login/Signup</button>
+    </header>
+
+    <!---------FEEDBACK LOOP--------->
+    <main>
+      <section class="container">
+        <div class="feedback-top">
+          <h2>We would love to hear your feedback!</h2>
+          <p>
+            Your feedback helps us make our workshops better for everyone.
+            Please share your experience with us!
+          </p>
+        </div>
+
+        <form class="form-container">
+          <div class="form-group">
+            <label for="firstname">First Name</label>
+            <input type="name" id="firstname" placeholder="Crafts" required />
+          </div>
+
+          <div class="form-group">
+            <label for="lastname">Last Name</label>
+            <input type="name" id="lastname" placeholder="Villa" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Craftsvilla@gmail.com"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="workshops">Workshop</label>
+            <select id="workshop">
+              <option value="Mosaikkkunst">mosaikkkunst</option>
+              <option value="Akvarellmaling">akvarellmaling</option>
+              <option value="Lerretsmaling">Lerretsmaling</option>
+              <option value="Other">Annet</option></select
+            ><br /><br />
+          </div>
+
+          <label for="feedback" class="feedback-label"
+            >What did you like the most?</label
+          ><br />
+          <textarea name="feedback" id="feedback" rows="10"></textarea>
+
+          <label for="feedback" class="feedback-label"
+            >How could we improve?</label
+          ><br />
+          <textarea name="feedback" id="improve" rows="10"></textarea><br />
+
+          <label for="recommend"></label>
+
+          <div>
+            <label for="Yes">Yes</label>
+            <input type="radio" id="yes" value="Yes" name="recommend" />
+            <label for="no">No</label>
+            <input type="radio" id="no" value="No" name="recommend" />
+            <label for="maybe">Maybe</label>
+            <input type="radio" id="maybe" value="Maybe" name="recommend" />
+          </div>
+
+          <label for="permission"></label>
+          <input type="checkbox" value="" />
+
+          <input id="submit" type="submit" value="Send Feedback" />
+        </form>
+      </section>
+    </main>
+
+    <!------------FOOTER------------->
+    <footer>
+      <div class="socials">
+        <img src="images/social media/x.png" alt="twitter" />
+        <img src="images/social media/instagram.png" alt="instagram" />
+        <img src="images/social media/facebook.png" alt="facebook" />
+      </div>
+
+      <nav class="nav-footer">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="booking.html">Booking</a>
+        <a href="contact.html">Contact</a>
+        <a href="index.html#about">About</a>
+      </nav>
+    </footer>
+  </body>
+</html>

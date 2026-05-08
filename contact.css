@@ -1,0 +1,193 @@
+/*-----CRAFTSVILLA CONTACT-------*/
+html {
+  scrollbar-gutter: stable;
+}
+
+body {
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.craftsvilla {
+  width: 90%;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  max-width: 1440px;
+  margin-top: 5px;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  margin-left: 5%;
+  align-items: center;
+}
+
+.logo h2,
+.logo p {
+  margin: 0;
+  color: red;
+}
+
+.logo img {
+  width: 60px;
+  object-fit: contain;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15%;
+}
+
+.head-nav a {
+  margin: 0 20px;
+  font-size: 24px;
+  color: black;
+  width: 30%;
+  padding: 10px;
+  position: relative;
+  text-decoration: none;
+}
+
+.head-nav a::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: rgb(18, 18, 18);
+  transition: width 0.4s ease;
+}
+
+.head-nav a:hover:after {
+  width: 100%;
+}
+
+button.signup {
+  background-color: rgb(0, 4, 255);
+  color: antiquewhite;
+  border-radius: 14px;
+}
+
+/*-----CONTACT----*/
+
+.container {
+  display: flex;
+  margin-top: 2%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feedback-top {
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.form-group {
+  display: flex;
+  align-items: center;
+  max-width: 400px;
+}
+
+.form-group input {
+  flex: 1;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.feedback-label {
+  color: rgb(234, 16, 16);
+  font-size: 24px;
+}
+
+input [type="name"],
+[type="name"],
+[type="email"] {
+  width: 400px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+input[type="submit"] {
+  border-radius: 8px;
+  width: 80px;
+}
+
+
+label[for="workshops"] {
+  font-size: 24px;
+  margin-left: -30px;
+}
+
+
+/*----FOOOTER-----*/
+
+footer {
+  display: flex;
+  margin-top: 2%; 
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(190, 43, 43);
+  width: 100%;
+  height: 90px;
+}
+
+footer img {
+  width: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+footer .socials {
+  display: flex;
+  gap: 100px;
+}
+
+
+.nav-footer a {
+  margin: 0 20px;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  width: 30%;
+  padding: 10px;
+  position: relative;
+  text-decoration: none;
+}
+
+.nav-footer a::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: rgb(255, 253, 253);
+  transition: width 0.4s ease;
+}
+
+.nav-footer a:hover:after {
+  width: 100%;
+}
+
