@@ -83,7 +83,6 @@ button.signup {
   border-radius: 14px;
 }
 
-
 /*--------BOOKING---------*/
 
 .container {
@@ -97,8 +96,6 @@ button.signup {
   align-items: center;
   justify-content: center;
 }
-
-
 
 .form-group {
   display: flex;
@@ -134,15 +131,15 @@ input[type="submit"] {
   width: 80px;
 }
 
+input[type="submit"]:hover {
+  cursor: pointer;
+}
 
-
-
-
-/*----FOOTER-----*/
+/*----FOOOTER-----*/
 
 footer {
   display: flex;
-  margin-top: 8%;
+  margin-top: 4%;
   align-items: center;
   justify-content: center;
   background-color: rgb(190, 43, 43);
@@ -156,13 +153,18 @@ footer img {
   justify-content: center;
 }
 
-
-
 footer .socials {
   display: flex;
-  gap: 100px;
+  gap: 9rem;
 }
 
+.social-links {
+  cursor: pointer;
+}
+
+.social-links {
+  width: 1rem;
+}
 
 .nav-footer a {
   margin: 0 20px;

@@ -87,8 +87,6 @@ button.signup {
   border-radius: 14px;
 }
 
-
-
 /*--------CONTESTANTS---------*/
 .cards-container {
   margin-left: 2%;
@@ -112,13 +110,11 @@ button.signup {
   max-width: 60%;
 }
 
-
-
 /*----FOOOTER-----*/
 
 footer {
   display: flex;
-  margin-top: 8%;
+  margin-top: 4%;
   align-items: center;
   justify-content: center;
   background-color: rgb(190, 43, 43);
@@ -132,13 +128,18 @@ footer img {
   justify-content: center;
 }
 
-
-
 footer .socials {
   display: flex;
-  gap: 100px;
+  gap: 9rem;
 }
 
+.social-links {
+  cursor: pointer;
+}
+
+.social-links {
+  width: 1rem;
+}
 
 .nav-footer a {
   margin: 0 20px;
@@ -164,5 +165,3 @@ footer .socials {
 .nav-footer a:hover:after {
   width: 100%;
 }
-
-

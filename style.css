@@ -221,7 +221,7 @@ h4 {
 
 footer {
   display: flex;
-  margin-top: 2%;
+  margin-top: 4%;
   align-items: center;
   justify-content: center;
   background-color: rgb(190, 43, 43);
@@ -237,7 +237,15 @@ footer img {
 
 footer .socials {
   display: flex;
-  gap: 100px;
+  gap: 9rem;
+}
+
+.social-links {
+  cursor: pointer;
+}
+
+.social-links {
+  width: 1rem;
 }
 
 .nav-footer a {
@@ -265,7 +273,6 @@ footer .socials {
   width: 100%;
 }
 
-
 /*--------CONTESTANTS---------*/
 .cards-container {
   margin-top: 3%;
@@ -289,9 +296,8 @@ footer .socials {
   max-width: 60%;
 }
 
-
 .includes {
-  color:black;
+  color: black;
   font-size: 20px;
   text-decoration: underline;
 }
