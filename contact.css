@@ -62,7 +62,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 15%;
+  margin-left: 10%;
 }
 
 .head-nav a {
@@ -100,13 +100,18 @@ button.signup {
   background-color: rgb(231, 83, 83);
   color: antiquewhite;
   border-radius: 14px;
+  margin-left: 2%;
   height: 40px;
-  margin-left: 5%;
   justify-content: center;
   align-items: center;
   display: flex;
   border: 2px solid rgb(39, 39, 39);
   cursor: pointer;
+}
+
+.button.signup h2 {
+  text-align: center;
+  justify-content: center;
 }
 
 button.signup:hover {
