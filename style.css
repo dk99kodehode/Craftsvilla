@@ -2,8 +2,10 @@
 
 body {
   margin: 0 auto;
-  background-color: rgb(255, 255, 255);
+  background-color: #f5f1eb;
   justify-content: center;
+  flex-wrap: wrap;
+  font-family: "Poppins", sans-serif;
 }
 
 .craftsvilla {
@@ -12,27 +14,38 @@ body {
 
 header {
   display: flex;
+  position: fixed;
+  font-family: "DM Serif Display", serif;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(252, 245, 245);
   width: 100%;
-  max-width: 1440px;
-  margin-top: 5px;
-  justify-content: space-between;
+  height: 90px;
+  z-index: 1;
 }
 
 .logo {
   display: flex;
-  margin-left: 5%;
   align-items: center;
+  cursor: pointer;
 }
 
 .logo h2,
 .logo p {
   margin: 0;
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  margin-left: -50%;
+}
+
+.logo h2 {
   color: red;
 }
 
 .logo img {
-  width: 60px;
-  object-fit: contain;
+  width: 200px;
+  margin-left: 10%;
 }
 
 .logo-text {
@@ -51,7 +64,7 @@ nav {
 }
 
 .head-nav a {
-  margin: 0 20px;
+  margin: 0 40px;
   font-size: 24px;
   color: black;
   width: 30%;
@@ -60,14 +73,20 @@ nav {
   text-decoration: none;
 }
 
+.signup img {
+  width: 40px;
+  filter: brightness(1) invert(1);
+}
+
 .head-nav a::after {
   content: "";
   position: absolute;
-  bottom: -4px;
+  bottom: 0;
   left: 0;
   width: 0%;
-  height: 2px;
-  background: rgb(18, 18, 18);
+  border-radius: 8px;
+  height: 4px;
+  background: rgb(231, 83, 83);
   transition: width 0.4s ease;
 }
 
@@ -76,44 +95,44 @@ nav {
 }
 
 button.signup {
-  background-color: rgb(0, 4, 255);
+  background-color: rgb(231, 83, 83);
   color: antiquewhite;
   border-radius: 14px;
-}
-
-/*---BUTTTONS---*/
-
-.hero button {
-  border-radius: 90px;
-  margin-top: 60px;
-  height: 50px;
-  background-color: rgb(0, 4, 255);
-  color: wheat;
-  display: flex;
+  height: 40px;
+  margin-left: 5%;
+  justify-content: center;
   align-items: center;
-  padding: 15px;
+  display: flex;
+  border: 2px solid rgb(39, 39, 39);
+  cursor: pointer;
 }
 
-.hero button:hover {
+button.signup:hover {
   transform: scale(1.1);
+  transition: ease 0.4s;
 }
 
 /*---------HERO----------*/
 section.hero {
   flex-direction: row;
   display: flex;
-  margin-top: 2%;
-  margin-left: 5%;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
   gap: 0;
 }
 
 .hero-text {
   font-size: 36px;
   margin: 0%;
+  display: flex;
+  justify-content: center;
+  margin-left: 13%;
 }
 
 .hero-high {
-  color: rgba(242, 0, 0, 0.855);
+  color: #ff2424da;
 }
 
 .hero-text p {
@@ -131,19 +150,26 @@ section.hero img {
 .images-hero {
   display: flex;
   margin-top: 2%;
+  margin-left: -10%;
+  justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 5px;
 }
 
 .images-hero img {
   width: 60px;
   margin: 0;
+  filter: invert(27%) sepia(88%) saturate(2314%) hue-rotate(338deg)
+    brightness(93%) contrast(92%);
   margin-top: 2%;
   margin-left: 5%;
 }
 
 .images-hero p {
   margin: 0;
+  margin-top: 2%;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
 }
 
 /*--------POPULAR CATEGORIES--------*/
@@ -151,18 +177,10 @@ section.hero img {
   display: flex;
   gap: 20px;
   flex-direction: row;
-  margin-left: 5%;
-}
-
-.popular-head {
-  font-size: 30px;
   align-items: center;
   justify-content: center;
-  margin-left: 5%;
-}
-
-.fire-emoji {
-  width: 36px;
+  margin-left: -8%;
+  margin-top: 5%;
 }
 
 .popular-categories img {
@@ -176,7 +194,10 @@ section.hero img {
   display: flex;
   margin-top: 5%;
   flex-direction: row;
-  margin-left: 5%;
+  margin-left: -8%;
+  justify-content: center;
+  align-items: center;
+
   gap: 60px;
 }
 
@@ -193,6 +214,7 @@ h4 {
   font-family: Georgia, "Times New Roman", Times, serif;
   margin-top: 5%;
   margin-right: 5%;
+  position: relative;
   align-items: center;
   justify-content: center;
 }
@@ -200,17 +222,23 @@ h4 {
 .about-us {
   display: flex;
   margin-bottom: 5%;
-  width: 1196px;
+  width: 1200px;
+  margin-left: -5%;
   border-radius: 12px;
   align-items: center;
   justify-content: center;
   background-color: #b62b24;
-  margin-left: 10%;
   color: aliceblue;
 }
 
 .about-us h2 {
   max-width: 75%;
+}
+
+.about {
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .about-span {
@@ -224,7 +252,7 @@ footer {
   margin-top: 4%;
   align-items: center;
   justify-content: center;
-  background-color: rgb(190, 43, 43);
+  background-color: rgb(231, 83, 83);
   width: 100%;
   height: 90px;
 }
@@ -276,7 +304,8 @@ footer .socials {
 /*--------CONTESTANTS---------*/
 .cards-container {
   margin-top: 3%;
-  margin-left: 5%;
+  margin-left: 2%;
+  width: 100%;
 }
 
 .cards-layout {
@@ -300,4 +329,14 @@ footer .socials {
   color: black;
   font-size: 20px;
   text-decoration: underline;
+}
+
+.cards {
+  width: 520px;
+  z-index: 0;
+}
+
+.cards:hover {
+  transform: scale(0.95);
+  transition: ease 2s;
 }
