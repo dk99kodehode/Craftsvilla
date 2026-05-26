@@ -47,7 +47,6 @@ header {
 
 .logo img {
   width: 200px;
-  margin-left: 10%;
 }
 
 .logo-text {
@@ -70,7 +69,6 @@ nav {
   font-size: 24px;
   color: black;
   width: 30%;
-  padding: 10px;
   position: relative;
   text-decoration: none;
 }
@@ -256,7 +254,7 @@ footer img {
 
 footer .socials {
   display: flex;
-  gap: 9rem;
+  gap: 80px;
 }
 
 .social-links {

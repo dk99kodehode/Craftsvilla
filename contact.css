@@ -13,7 +13,10 @@ body {
 
 main {
   display: flex;
+  position: relative;
   flex-direction: row;
+  width: 1440px;
+  left: 18%;
 }
 
 .craftsvilla {
@@ -53,7 +56,6 @@ header {
 
 .logo img {
   width: 200px;
-  margin-left: 10%;
 }
 
 .logo-text {
@@ -76,7 +78,6 @@ nav {
   font-size: 24px;
   color: black;
   width: 30%;
-  padding: 10px;
   position: relative;
   text-decoration: none;
 }
@@ -128,7 +129,7 @@ button.signup:hover {
 /*-----------CONTACT--------*/
 .container {
   display: flex;
-  margin-left: 16%;
+  position: relative;
   padding-top: 8%;
   width: 50%;
   justify-content: space-between;
@@ -138,12 +139,19 @@ button.signup:hover {
 }
 
 .box {
+  position: relative;
   margin-left: -18%;
   display: flex;
+  width: 800px;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  top: 0;
+  justify-content: flex-start;
+}
+
+.box h2 {
+  font-size: 27px;
+  position: relative;
+  left: -8%;
 }
 
 .contact-groups {
@@ -266,7 +274,7 @@ footer img {
 
 footer .socials {
   display: flex;
-  gap: 9rem;
+  gap: 80px;
 }
 
 .social-links {
