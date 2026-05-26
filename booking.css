@@ -240,26 +240,12 @@ form input {
 
 footer {
   display: flex;
-  position: fixed;
-  bottom: -100px;
+  margin-top: 4%;
   align-items: center;
   justify-content: center;
   background-color: rgb(231, 83, 83);
   width: 100%;
   height: 90px;
-}
-
-footer h5 {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  color: white;
-  font-size: 18px;
-  padding-left: 5%;
-}
-
-#footer.visible {
-  bottom: 0;
 }
 
 footer img {
@@ -278,7 +264,7 @@ footer .socials {
 }
 
 .social-links {
-  width: 1rem;
+  width: 2px;
 }
 
 .nav-footer a {
@@ -286,7 +272,6 @@ footer .socials {
   font-size: 24px;
   color: rgb(255, 255, 255);
   width: 30%;
-  padding: 10px;
   position: relative;
   text-decoration: none;
 }
@@ -304,4 +289,13 @@ footer .socials {
 
 .nav-footer a:hover:after {
   width: 100%;
+}
+
+footer h5 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: white;
+  font-size: 18px;
+  padding-left: 5%;
 }
