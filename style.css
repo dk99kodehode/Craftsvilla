@@ -45,7 +45,6 @@ header {
 
 .logo img {
   width: 200px;
-  margin-left: 10%;
 }
 
 .logo-text {
@@ -107,7 +106,7 @@ button.signup {
   cursor: pointer;
 }
 
-button.signup h2 {
+.button.signup h2 {
   text-align: center;
   justify-content: center;
 }
@@ -154,11 +153,12 @@ section.hero img {
 
 .images-hero {
   display: flex;
-  margin-top: 2%;
-  margin-left: -10%;
+  margin-top: 4%;
+  width: 100%;
+  padding-right: 4%;
   justify-content: center;
   align-items: center;
-  gap: 5px;
+  gap: 100px;
 }
 
 .images-hero img {
@@ -167,7 +167,18 @@ section.hero img {
   filter: invert(27%) sepia(88%) saturate(2314%) hue-rotate(338deg)
     brightness(93%) contrast(92%);
   margin-top: 2%;
-  margin-left: 5%;
+}
+
+.groups {
+  display: flex;
+  align-items: center;
+}
+
+.hero-groups {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 }
 
 .images-hero p {
@@ -183,9 +194,9 @@ section.hero img {
   gap: 20px;
   flex-direction: row;
   align-items: center;
+  padding-right: 4%;
   justify-content: center;
-  margin-left: -8%;
-  margin-top: 5%;
+  padding-top: 5%;
 }
 
 .popular-categories img {
@@ -198,12 +209,11 @@ section.hero img {
 .age-groups {
   display: flex;
   margin-top: 5%;
+  padding-right: 4%;
   flex-direction: row;
-  margin-left: -8%;
   justify-content: center;
   align-items: center;
-
-  gap: 60px;
+  gap: 80px;
 }
 
 .age-groups img {
@@ -306,11 +316,23 @@ footer .socials {
   width: 100%;
 }
 
+footer h5 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: white;
+  font-size: 18px;
+  padding-left: 5%;
+}
+
 /*--------CONTESTANTS---------*/
 .cards-container {
-  margin-top: 3%;
-  margin-left: 2%;
+  padding-top: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
+  padding-left: 55px;
 }
 
 .cards-layout {
