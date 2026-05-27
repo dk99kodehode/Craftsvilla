@@ -232,7 +232,7 @@ h4 {
 
 .permission {
   padding-top: 5%;
-  margin-left: -57%;
+  margin-left: -65%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -241,7 +241,7 @@ h4 {
 
 .permission h3 {
   display: flex;
-  margin-right: -10%;
+  margin-right: -12%;
 }
 
 .send-feedback {
