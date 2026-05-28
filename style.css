@@ -119,7 +119,7 @@ button.signup:hover {
 section.hero {
   flex-direction: row;
   display: flex;
-  width: 90%;
+  width: 100%;
   align-items: center;
   justify-content: center;
   margin-top: 5%;
@@ -131,11 +131,20 @@ section.hero {
   margin: 0%;
   display: flex;
   justify-content: center;
-  margin-left: 13%;
+  position: relative;
+  padding-left: 8%;
+  width: 100%;
+}
+
+.hero-text h2 {
+  overflow-wrap: break-word;
+  word-break: normal;
+  font-size: 48px;
 }
 
 .hero-high {
   color: #ff2424da;
+  width: 20px;
 }
 
 .hero-text p {
@@ -177,7 +186,7 @@ section.hero img {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  padding-left: 5%;
 }
 
 .images-hero p {
