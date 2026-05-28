@@ -147,6 +147,16 @@ section.hero {
   width: 20px;
 }
 
+.hero-high-1 {
+  color: #5b24ffda;
+  width: 20px;
+}
+
+.hero-high-2 {
+  color: #00f821da;
+  width: 20px;
+}
+
 .hero-text p {
   font-size: 24px;
   max-width: 300px;
