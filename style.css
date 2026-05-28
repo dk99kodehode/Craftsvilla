@@ -132,7 +132,7 @@ section.hero {
   display: flex;
   justify-content: center;
   position: relative;
-  padding-left: 8%;
+  padding-left: 7%;
   width: 100%;
 }
 
@@ -202,7 +202,6 @@ section.hero img {
   gap: 20px;
   flex-direction: row;
   align-items: center;
-  padding-right: 4%;
   justify-content: center;
   padding-top: 5%;
 }
@@ -217,7 +216,6 @@ section.hero img {
 .age-groups {
   display: flex;
   margin-top: 5%;
-  padding-right: 4%;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -245,17 +243,16 @@ h4 {
 .about-us {
   display: flex;
   margin-bottom: 5%;
-  width: 1200px;
-  margin-left: -5%;
+  width: 90%;
   border-radius: 12px;
   align-items: center;
   justify-content: center;
-  background-color: #b62b24;
+  background-color: #eb2b21;
   color: aliceblue;
 }
 
 .about-us h2 {
-  max-width: 75%;
+  max-width: 85%;
 }
 
 .about {
@@ -339,7 +336,7 @@ footer h5 {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding-left: 55px;
+  padding-left: 7%;
 }
 
 .cards-layout {
@@ -350,8 +347,8 @@ footer h5 {
 }
 
 .cards img {
-  width: 350px;
-  height: 400px;
+  width: 320px;
+  height: 350px;
   border-radius: 8px;
 }
 
