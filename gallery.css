@@ -131,7 +131,6 @@ button.signup:hover {
 .showcase {
   max-width: 1130px;
   margin: 0 auto;
-  padding: 0 40px;
   padding-bottom: 20px;
 }
 
@@ -150,8 +149,10 @@ button.signup:hover {
 }
 
 .showcase-categories div select {
-  border-radius: 20px;
   padding: 10px 20px;
+  border: none;
+  font-size: 14px;
+  background-color: #f5f1eb;
 }
 
 .cards .favorite img {
@@ -159,7 +160,6 @@ button.signup:hover {
   height: 30px;
   position: relative;
   cursor: pointer;
-  filter: brightness(100%) opacity(50%) contrast(100%);
 }
 
 .favorite {
@@ -178,6 +178,7 @@ button.signup:hover {
 
 .favorite div:active {
   scale: 1.1;
+  transform: translateY(-2px);
 }
 
 .categories button {
