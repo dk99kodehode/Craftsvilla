@@ -139,6 +139,21 @@ button.signup:hover {
   color: red;
 }
 
+.showcase-categories {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0 40px;
+  padding-bottom: 20px;
+}
+
+.showcase-categories div select {
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
 .cards .favorite img {
   width: 30px;
   height: 30px;
@@ -150,16 +165,31 @@ button.signup:hover {
 .favorite {
   flex-direction: row;
   display: flex;
-  gap: 40px;
-  margin-left: 28%;
+  position: relative;
+  gap: 110px;
   padding-top: 6%;
   justify-content: center;
   align-items: center;
 }
 
 .favorite div:hover {
-  scale: 1.05;
   filter: saturate(10000%) contrast(1000%) brightness(1000%) opacity(1000%);
+}
+
+.favorite div:active {
+  scale: 1.1;
+}
+
+.categories button {
+  border-radius: 12px;
+  border: 1px solid rgb(160, 159, 159);
+  padding: 10px 32px;
+}
+
+.categories button:hover {
+  background-color: rgb(244, 61, 61);
+  color: white;
+  transition: 0.3s;
 }
 
 .cards button {
@@ -168,14 +198,13 @@ button.signup:hover {
   display: flex;
   border-radius: 16px;
   cursor: pointer;
-  margin-top: -8%;
-  background-color: rgb(31, 48, 98);
-  color: white;
+  border: none;
+  color: rgb(239, 18, 18);
   padding: 10px;
 }
 
 .cards button:active {
-  background-color: rgb(56, 105, 255);
+  scale: 1.1;
 }
 
 .cards-container {
@@ -214,9 +243,8 @@ p {
 .cards h2,
 .cards p {
   margin: 0;
-  left: 0%;
-  position: relative;
-  display: block;
+  left: -15%;
+  position: static;
 }
 
 .cards img {
