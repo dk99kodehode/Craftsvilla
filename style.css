@@ -79,7 +79,7 @@ nav {
 .head-nav a::after {
   content: "";
   position: absolute;
-  bottom: 0;
+  bottom: -5px;
   left: 0;
   width: 0%;
   border-radius: 8px;
@@ -114,6 +114,7 @@ button.signup:hover {
   background-color: rgb(215, 61, 61);
   transition: 1s;
 }
+
 /*---------HERO----------*/
 section.hero {
   flex-direction: row;
