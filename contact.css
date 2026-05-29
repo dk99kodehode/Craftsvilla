@@ -112,7 +112,7 @@ button.signup {
   justify-content: center;
   align-items: center;
   display: flex;
-  border: 2px solid rgb(39, 39, 39);
+  padding-right: 20px;
   cursor: pointer;
 }
 
@@ -122,8 +122,8 @@ button.signup {
 }
 
 button.signup:hover {
-  transform: scale(1.1);
-  transition: ease 0.4s;
+  background-color: rgb(215, 61, 61);
+  transition: 1s;
 }
 
 /*-----------CONTACT--------*/

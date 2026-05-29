@@ -113,7 +113,7 @@ button.signup {
   justify-content: center;
   align-items: center;
   display: flex;
-  border: 2px solid rgb(39, 39, 39);
+  padding-right: 20px;
   cursor: pointer;
 }
 
@@ -123,8 +123,8 @@ button.signup {
 }
 
 button.signup:hover {
-  transform: scale(1.1);
-  transition: ease 0.4s;
+  background-color: rgb(215, 61, 61);
+  transition: 1s;
 }
 
 /*--------CONTESTANTS---------*/
@@ -159,7 +159,7 @@ button.signup:hover {
 
 .favorite div:hover {
   scale: 1.05;
-  filter: saturate(1000%);
+  filter: saturate(10000%) contrast(1000%) brightness(1000%) opacity(1000%);
 }
 
 .cards button {
@@ -167,7 +167,6 @@ button.signup:hover {
   align-items: center;
   display: flex;
   border-radius: 16px;
-  border: 1px solid black;
   cursor: pointer;
   margin-top: -8%;
   background-color: rgb(31, 48, 98);
@@ -185,14 +184,18 @@ button.signup:hover {
 }
 
 .cards {
-  border: 1px black solid;
   padding: 0px 0px;
-  border-radius: 8px;
+  border-radius: 24px;
+  border: 2px solid rgb(182, 179, 179);
   padding-bottom: 5px;
 }
 
-.cards:hover {
-  scale: 1.1;
+.cards img {
+  scale: 0.9;
+}
+
+.cards img:hover {
+  scale: 1;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
 }
 
@@ -220,7 +223,7 @@ p {
   width: 260px;
   height: 360px;
   top: 24%;
-  border-radius: 8px;
+  border-radius: 20px;
   position: relative;
 }
 
