@@ -288,16 +288,14 @@ footer {
 }
 
 footer img {
-  width: 30px;
+  width: 35px;
   align-items: center;
   justify-content: center;
 }
 
 footer .socials {
   display: flex;
-  position: relative;
-  right: 20%;
-  gap: 60px;
+  gap: 80px;
 }
 
 .social-links {
