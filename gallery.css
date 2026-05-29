@@ -71,14 +71,14 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 10%;
+  padding-left: 10%;
 }
 
 .head-nav a {
-  margin: 0 40px;
+  margin: 0 35px;
   font-size: 24px;
-  color: black;
-  width: 30%;
+  color: rgb(37, 35, 35);
+  width: 20%;
   position: relative;
   text-decoration: none;
 }
@@ -96,7 +96,7 @@ nav {
   width: 0%;
   border-radius: 8px;
   height: 4px;
-  background: rgb(231, 83, 83);
+  background: rgb(255, 51, 51);
   transition: width 0.4s ease;
 }
 
@@ -189,7 +189,7 @@ button.signup:hover {
 .categories button:hover {
   background-color: rgb(244, 61, 61);
   color: white;
-  transition: 0.3s;
+  transition: 0.4s;
 }
 
 .cards button {
@@ -213,9 +213,8 @@ button.signup:hover {
 }
 
 .cards {
-  padding: 0px 0px;
   border-radius: 24px;
-  border: 2px solid rgb(182, 179, 179);
+  border: 2px solid rgb(223, 220, 220);
   padding-bottom: 5px;
 }
 
