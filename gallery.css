@@ -270,6 +270,35 @@ p {
   padding-bottom: 2%;
 }
 
+.submit-art {
+  width: 70%;
+  gap: 60px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 70px;
+  border-radius: 8px;
+}
+
+.submit-art img {
+  width: 30px;
+}
+
+.submit-art button {
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(244, 93, 66);
+  color: white;
+  padding: 10px 30px;
+}
+
+.submit-art button:hover {
+  scale: 1.1;
+  transition: 0.4s;
+}
+
 /*----FOOOTER-----*/
 
 footer {
