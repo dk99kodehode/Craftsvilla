@@ -239,23 +239,24 @@ form input {
 
 footer {
   display: flex;
-  margin-top: 4%;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: rgb(231, 83, 83);
   width: 100%;
-  height: 90px;
+  height: auto;
+}
+
+footer .socials {
+  display: flex;
+  gap: 200px;
+  margin-top: 2%;
 }
 
 footer img {
   width: 35px;
   align-items: center;
   justify-content: center;
-}
-
-footer .socials {
-  display: flex;
-  gap: 80px;
 }
 
 .social-links {
@@ -266,30 +267,6 @@ footer .socials {
   width: 2px;
 }
 
-.nav-footer a {
-  margin: 0 20px;
-  font-size: 24px;
-  color: rgb(255, 255, 255);
-  width: 30%;
-  position: relative;
-  text-decoration: none;
-}
-
-.nav-footer a::after {
-  content: "";
-  position: absolute;
-  bottom: -4px;
-  left: 0;
-  width: 0%;
-  height: 2px;
-  background: rgb(255, 253, 253);
-  transition: width 0.4s ease;
-}
-
-.nav-footer a:hover:after {
-  width: 100%;
-}
-
 footer h5 {
   align-items: center;
   justify-content: center;
@@ -297,4 +274,35 @@ footer h5 {
   color: white;
   font-size: 18px;
   padding-left: 5%;
+}
+
+.contact-groups img {
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.contact-groups {
+  display: flex;
+  width: 90%;
+  flex-direction: row;
+  gap: 10px;
+  margin-bottom: 2%;
+}
+
+.contact-groups h3 {
+  color: #f5f1eb;
+  width: 100%;
+}
+
+.contact {
+  gap: 100px;
+  display: flex;
+}
+
+.contact-groups img,
+.contact-groups h3 {
+  margin: 0;
 }
