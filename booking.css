@@ -98,6 +98,7 @@ button.signup {
   background-color: rgb(231, 83, 83);
   color: antiquewhite;
   border-radius: 14px;
+  border: none;
   margin-left: 2%;
   height: 40px;
   justify-content: center;

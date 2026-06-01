@@ -108,6 +108,7 @@ button.signup {
   background-color: rgb(231, 83, 83);
   color: antiquewhite;
   border-radius: 14px;
+  border: none;
   margin-left: 2%;
   height: 40px;
   justify-content: center;
@@ -185,10 +186,11 @@ button.signup:hover {
   border-radius: 12px;
   border: 1px solid rgb(160, 159, 159);
   padding: 10px 32px;
+  flex-direction: row;
 }
 
 .categories button:hover {
-  background-color: rgb(244, 61, 61);
+  background-color: rgb(38, 16, 134);
   color: white;
   transition: 0.4s;
 }
@@ -204,8 +206,25 @@ button.signup:hover {
   padding: 10px;
 }
 
+.categories button img {
+  width: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.categories div {
+  display: flex;
+  flex-direction: row;
+}
+
 .cards button:active {
   scale: 1.1;
+}
+
+.categories {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
 }
 
 .cards-container {
