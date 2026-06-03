@@ -151,6 +151,7 @@ button.signup:hover {
 
 .showcase-categories div select {
   padding: 10px 20px;
+  cursor: pointer;
   border: none;
   font-size: 14px;
   background-color: #f5f1eb;
@@ -190,8 +191,9 @@ button.signup:hover {
 }
 
 .categories button:hover {
-  background-color: rgb(38, 16, 134);
+  background-color: rgb(3, 97, 159);
   color: white;
+  cursor: pointer;
   transition: 0.4s;
 }
 
@@ -245,6 +247,7 @@ button.signup:hover {
 .cards img:hover {
   scale: 1;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
+  cursor: pointer;
 }
 
 p {
